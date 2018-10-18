@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.boton, .boton-rojo, .boton-chico, .boton-grande, .boton-linea, .boton-x {
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none; }
+
+.boton-rojo {
+  background: red; }
+
+.boton-chico {
+  font-size: 14px;
+  padding: 5px 15px; }
+
+.boton-grande {
+  font-size: 20px; }
+
+.boton-linea {
+  background: none;
+  border: 1px solid #444;
+  color: #365; }
+
+.boton-x {
+  background: #456783;
+  transition: .5s; }
+  .boton-x:hover {
+    background: #668eae;
+    transform: scale(1.1); }
+
+.circulo {
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: red;
+  height: 100px;
+  width: 100px; }
+
+.circulo1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.circulo2 {
+  width: 200px;
+  height: 200px;
+  background: green;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.circulo3 {
+  width: 150px;
+  height: 150px;
+  background: blue;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.boton-mx1 {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #34578e;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 20px;
+  transition: 1s; }
+  .boton-mx1:hover {
+    transform: scale(1.1);
+    background: #1f3556; }
+
+.boton-mx2 {
+  display: inline-block;
+  text-decoration: none;
+  color: #455723;
+  background: cyan;
+  border-radius: 3px;
+  padding: 5px 30px;
+  font-size: 18px;
+  transition: 1s; }
+  .boton-mx2:hover {
+    transform: scale(1.1);
+    background: #00b3b3; }
+
+.boton-mx3 {
+  display: inline-block;
+  text-decoration: none;
+  color: #D3F455;
+  background: #45d34e;
+  border-radius: 30px;
+  padding: 20px 20px;
+  font-size: 16px;
+  transition: 1s; }
+  .boton-mx3:hover {
+    transform: scale(1.1);
+    background: #27a52f; }
+
+/*# sourceMappingURL=style.css.map */
